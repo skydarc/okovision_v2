@@ -79,10 +79,10 @@ $(document).ready(function() {
 										
 								if(key1 == 'hk1') {
 									
-									if(binStat[5] == '1') $('#' + key1 + '\\.' + key2).html('Confort');
-									else if(binStat[4] == '1') $('#' + key1 + '\\.' + key2).html('R&eacute;duit');
-									else if(binStat[7] == '1') $('#' + key1 + '\\.' + key2).html('Vacances');
-									else $('#' + key1 + '\\.' + key2).html('Arr&ecirc;t');
+									if(binStat[5] == '1') $('#' + key1 + '\\.' + key2).html(lang.mode.conf);
+									else if(binStat[4] == '1') $('#' + key1 + '\\.' + key2).html(lang.mode.red);
+									else if(binStat[7] == '1') $('#' + key1 + '\\.' + key2).html(lang.mode.vac);
+									else $('#' + key1 + '\\.' + key2).html(lang.mode.off);
 
 								}
 								

@@ -429,10 +429,10 @@ $(document).ready(function() {
 											
 								if(idArray[0] == 'hk1') {
 									
-									if(binStat[5] == '1') $('#' + idArray[0] + '\\.' + idArray[1]).html('Confort');
-									else if(binStat[4] == '1') $('#' + idArray[0] + '\\.' + idArray[1]).html('R&eacute;duit');
-									else if(binStat[7] == '1') $('#' + idArray[0] + '\\.' + idArray[1]).html('Vacances');
-									else $('#' + idArray[0] + '\\.' + idArray[1]).html('Arr&ecirc;t');
+									if(binStat[5] == '1') $('#' + idArray[0] + '\\.' + idArray[1]).html(lang.mode.conf);
+									else if(binStat[4] == '1') $('#' + idArray[0] + '\\.' + idArray[1]).html(lang.mode.red);
+									else if(binStat[7] == '1') $('#' + idArray[0] + '\\.' + idArray[1]).html(lang.mode.vac);
+									else $('#' + idArray[0] + '\\.' + idArray[1]).html(lang.mode.off);
 
 								}
 								

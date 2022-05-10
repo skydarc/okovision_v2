@@ -97,6 +97,12 @@ var lang = {
         nbCycle: 'Cycle nb',
         seasonSummary: "Season summary",
         loading : 'Loading data from boiler...'
-    }
+    },
+	mode:{
+		off: 'Off',
+		vac: 'Vacancy',
+		red: 'Reduce',
+		conf: 'Comfort'
+	}
 };
     

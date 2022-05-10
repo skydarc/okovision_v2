@@ -2,18 +2,18 @@ var lang = {
     error:{
         communication: 'Problème de communication',
         getFileFromBoiler: 'Impossible de récupérer les fichiers présents sur la chaudière',
-		getFileFromMailBox: 'Impossible de récupérer les fichiers présents sur la boite mail',
+	getFileFromMailBox: 'Impossible de récupérer les fichiers présents sur la boite mail',
         maj: 'Echec de la mise à jour',
         csvImport: "Echec de l'importation",
-		noSelect: "Selectionnez au moins un fichier",
-		delMail: "Erreur lors de la suppression",
+	noSelect: "Selectionnez au moins un fichier",
+	delMail: "Erreur lors de la suppression",
         summary: 'Synthèse non traitée',
         ipNotPing: "L'adresse Ip ne repond pas",
-		noMail: "pas de mail dans la boite",
-		mailboxDontRespond: "La boite mail ne repond pas",
-		portNotRespond: "Le port JSON indiqué n'est pas celui de la chaudière",
-		tooldfirmware: "Le firmware de la chaudière est inferieur à la V4",
-		badpwd: "mot de passe erroné",
+	noMail: "pas de mail dans la boite",
+	mailboxDontRespond: "La boite mail ne repond pas",
+	portNotRespond: "Le port JSON indiqué n'est pas celui de la chaudière",
+	tooldfirmware: "Le firmware de la chaudière est inferieur à la V4",
+	badpwd: "mot de passe erroné",
         configNotSave: 'Configuration non sauvegardée',
         csvNotFound: "Le fichier CSV de référence n'a pas été trouvé",
         getSeasons: 'Problème lors de la récupération des saisons',
@@ -56,7 +56,7 @@ var lang = {
         communication: 'Communication établie',
         maj: 'Mise à jour réalisée avec succès',
         csvImport: 'Importation réussie',
-		delMail: "Suppression effectuée",
+	delMail: "Suppression effectuée",
         summary: 'Synthèse réussie',
         configSave: 'Configuration sauvegardée',
         save: 'Enregistrement réussi',
@@ -91,7 +91,7 @@ var lang = {
         no_silo_size: 'Pour connaître le statut de remplissage de votre silo, veuillez renseigner sa contenance <a href="adminParam.php">dans les informations générales</a>',
         no_fill_date_for_silo: 'Pour connaître l\'état de votre stock de pellet, veuillez renseigner <a href="adminEvents.php">les informations du dernier remplissage</a>',
         updateAvailable: 'Une nouvelle version est disponible, cliquez ici',
-		importAll: "Tout Importer"
+	importAll: "Tout Importer"
     },
     graphic:{
         thousandsSep: ' ',
@@ -107,6 +107,12 @@ var lang = {
         nbCycle: 'Nb Cycle',
         seasonSummary: "Synthèse Saison",
         loading : 'Loading data from boiler...'
+    },
+    mode:{
+	off: 'Arrêt',
+	vac: 'Vacances',
+	red: 'Réduit',
+	conf: 'Confort'
     }
     /*,
     sensor:{
